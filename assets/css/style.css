@@ -1,0 +1,133 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+  
+body {
+    background-image: url("../images/what-the-hex.png");
+    background-color: #ffffff;
+    color: #777777;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    font-size: 18px;
+    font-weight: 540;
+    line-height: 27px;
+    word-spacing: 3px;
+}
+
+header {
+    margin-bottom: 20px;
+    background: #ffffff;
+    border-bottom: 2px solid #cccccc;
+    overflow: auto;
+}
+
+nav {
+    text-align: center;
+    padding-top: 30px;
+    float: right;
+}
+
+hr {
+    border: 1.5px solid #cccccc;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    }
+
+h1 {
+    font-family: Georgia, Times, 'Times New Roman', serif;
+    color: #4aaaa5;
+}
+
+#logo {
+    margin: none;
+    background-color: #4aaaa5;
+    color: #ffffff;
+    text-align: center;
+    padding: 30px;
+    float: left;        
+}
+
+footer {
+    background-color: #666666;
+    color: #cccccc;
+    text-align: center;
+    padding-top: 30px;
+    margin-top: 10px;
+    border-top: 8px solid #4aaaa5;
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+    width: 100%;
+}
+
+main {
+    background-color: #ffffff;
+    border: 1px solid #dddddd;
+    width: 960px;
+    padding: 40px 30px 30px 30px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 35px;
+    margin-bottom: 35px;
+    overflow: auto;
+}
+
+img.align-left {
+    float: left;
+    margin-right: 25px;
+}
+
+#headerContent {
+    width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+input[type=submit] {
+    background-color: #4aaaa5;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 30px;
+    border: none;
+    cursor: pointer;
+}
+
+input[type=text] {
+    width: 100%;
+    line-height: 28px;
+    margin-bottom: 10px;
+}
+
+textarea {
+    width: 100%;
+    height: 200px;
+    margin-bottom: 10px;
+}
+
+form {
+    font-size: 18px;
+    }
+
+.portfolioTile {
+    margin: 10px 40px 40px 0px;
+    overflow: auto;
+    float: left;
+    position: relative;
+    }
+
+.portfolioLink {
+    background-color: #4aaaa5;
+    text-align: center;
+    font-family: Georgia, Times, 'Times New Roman', serif;
+    color: #ffffff;
+    font-size: 22px;
+    line-height: 30px;
+    width: 100%;
+    margin-bottom: 18px;
+    padding: 10px;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+}
