@@ -2,44 +2,51 @@
 <html lang="en-us">
 <head>
     <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Zeke Graves - Contact Me</title>
     <link rel="stylesheet" type="text/css" href="assets/css/style.css" />
 </head>
 
 <body>
     <!-- Header -->
-    <header>
-    <div id="headerContent">
-        <!-- Name -->           
-        <h1 id="logo">Zeke Graves</h1>
-        <!-- Navigation Bar -->
-        <nav>
-            <a href="index.html">About</a> |
-            <a href="portfolio.html">Portfolio</a> |
-            <a href="contact.html">Contact</a>
-        </nav>
-    </div>
+    <header id="masthead">
+        <div class="container">
+            <a href="index.html" id="logo">Zeke Graves</a>
+            <!-- Navigation Bar -->
+            <nav>
+                <a href="index.html">About</a> |
+                <a href="portfolio.html">Portfolio</a> | 
+                <a href="contact.html">Contact</a>
+            </nav>
+        </div>
     </header>
 
     <!-- Contact -->
-    <main>
-        <h1>Contact</h1>
-        <hr />
-        <form>
-            <p>Name</p>
-            <input type="text" name="name" value="John Smith" />
-            <p>Email</p>
-            <input type="text" name="email" value="example@gmail.com"/>
-            <p>Message</p>
-            <textarea name="message"></textarea>
-            <br />
-            <input type="submit" value="Submit" />
-        </form>
-    </main>
+    <div class="wrapper">
+        <div id="main-container" class="container">
+            <section class="main-section">
+                <h1>Contact</h1>
+
+                <form id="contact-form">
+                    <p>Name</p>
+                    <input type="text" name="name" value="John Smith" />
+                    <p>Email</p>
+                    <input type="text" name="email" value="example@gmail.com"/>
+                    <p>Message</p>
+                    <textarea name="message"></textarea>
+                    <br />
+                    <input type="submit" value="Submit" />
+                </form>
+            </section>
+            <div class="push"></div>
+        </div>
+    </div>
 
     <!-- Footer -->
     <footer>
-        <small>&copy; Copyright 2018, Zeke Graves</small>
+        <div class="container">
+            &copy; Copyright 2018
+        </div>
     </footer>
     
 </body>
