@@ -11,8 +11,6 @@ My deployed app can be viewed here: https://zinc-glaze.github.io/ResponsiveBoots
 
 ### Screenshots
 
-
-
 ![Bio](screens/screencapture-zinc-glaze-github-io-Responsive-Portfolio-index-html-2019-06-27-18_56_24.png)
 
 ![Portfolio](screens/screencapture-zinc-glaze-github-io-Responsive-Portfolio-portfolio-html-2019-06-27-18_58_50.png)
