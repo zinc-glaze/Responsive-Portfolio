@@ -7,7 +7,7 @@ It demonstrates an understanding of Responsive Web Design using media queries wi
 
 This app sets breakpoints at 980, 768, and 640 pixels to adjust layout for different width screens.
 
-My deployed app can be viewed here: https://zinc-glaze.github.io/ResponsiveBootstrap-Portfolio/
+My deployed app can be viewed here: https://zinc-glaze.github.io/Responsive-Portfolio/
 
 ### Screenshots
 
